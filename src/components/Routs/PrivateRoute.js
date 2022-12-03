@@ -4,7 +4,7 @@ import { auth } from '../../utils/firebase.js'
 
 
 export const PrivateRoute = ({ component: Component, redirectTo = '/' }) => {
-  const [user, loading] = useAuthState(auth)
+  const [user, ] = useAuthState(auth)
   if (user !== null) {
     localStorage.setItem("logIn" , true)
   }

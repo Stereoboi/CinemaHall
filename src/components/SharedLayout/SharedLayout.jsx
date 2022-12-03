@@ -9,7 +9,7 @@ import { Footer } from "components/Footer/Footer";
 
 export const SharedLayout = () => {
 
-  const [user, loading] = useAuthState(auth);
+  const [user, ] = useAuthState(auth);
 
   const logOut = () => {
     auth.signOut();
