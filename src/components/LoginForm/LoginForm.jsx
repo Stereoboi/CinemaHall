@@ -1,4 +1,4 @@
-import { GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
+import { GoogleAuthProvider, signInWithPopup,FacebookAuthProvider, updateProfile, } from 'firebase/auth';
 import { auth} from '../../utils/firebase.js'
 import { FcGoogle } from "react-icons/fc";
 import { AiFillFacebook } from "react-icons/ai";
@@ -33,6 +33,18 @@ export default function SignIn() {
     }
   }
 
+  const fbProvider = new FacebookAuthProvider();
+  const FacebookLogin = async () => {
+    try {
+      const result = await signInWithPopup(auth, fbProvider);
+      setUserUid(result.user.providerData[0].uid)
+      const userKey = result.user.providerData[0].uid
+      localStorage.setItem('USER_KEY', userKey);
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
   return (
     <AuthWrapper >
       <Wrapper >
@@ -51,7 +63,7 @@ export default function SignIn() {
             </ButtonBox>
           </AuthButton>
           <AuthButton
-            // onClick={FacebookProvider}
+            onClick={FacebookLogin}
           >
             <ButtonBox>
               <AiFillFacebook size={20} color={"#1977F3"} />

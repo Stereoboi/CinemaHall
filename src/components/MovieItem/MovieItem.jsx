@@ -45,7 +45,7 @@ MovieItem.propTypes = {
   id: PropTypes.number,
   posterPath: PropTypes.string ,
   title: PropTypes.string,
-  genres: PropTypes.string,
+  genres: PropTypes.array,
   releaseDate:PropTypes.string ,
   rating:PropTypes.number ,
 }
