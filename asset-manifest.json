@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/CinemaHall/static/css/main.4d1398e1.css",
-    "main.js": "/CinemaHall/static/js/main.7a4fc641.js",
+    "main.js": "/CinemaHall/static/js/main.c02aa33b.js",
     "static/js/415.fe024193.chunk.js": "/CinemaHall/static/js/415.fe024193.chunk.js",
     "static/js/214.53897356.chunk.js": "/CinemaHall/static/js/214.53897356.chunk.js",
     "static/js/851.c88375e3.chunk.js": "/CinemaHall/static/js/851.c88375e3.chunk.js",
     "static/js/247.980d9a67.chunk.js": "/CinemaHall/static/js/247.980d9a67.chunk.js",
     "static/js/779.f021f62a.chunk.js": "/CinemaHall/static/js/779.f021f62a.chunk.js",
-    "static/js/755.524ec02e.chunk.js": "/CinemaHall/static/js/755.524ec02e.chunk.js",
+    "static/js/755.8fe28229.chunk.js": "/CinemaHall/static/js/755.8fe28229.chunk.js",
     "static/js/656.d434b755.chunk.js": "/CinemaHall/static/js/656.d434b755.chunk.js",
     "static/js/44.ec5167ce.chunk.js": "/CinemaHall/static/js/44.ec5167ce.chunk.js",
     "static/js/580.b284baab.chunk.js": "/CinemaHall/static/js/580.b284baab.chunk.js",
@@ -20,13 +20,13 @@
     "static/media/Default.png": "/CinemaHall/static/media/Default.dc3f3be43bf915f0d62d.png",
     "index.html": "/CinemaHall/index.html",
     "main.4d1398e1.css.map": "/CinemaHall/static/css/main.4d1398e1.css.map",
-    "main.7a4fc641.js.map": "/CinemaHall/static/js/main.7a4fc641.js.map",
+    "main.c02aa33b.js.map": "/CinemaHall/static/js/main.c02aa33b.js.map",
     "415.fe024193.chunk.js.map": "/CinemaHall/static/js/415.fe024193.chunk.js.map",
     "214.53897356.chunk.js.map": "/CinemaHall/static/js/214.53897356.chunk.js.map",
     "851.c88375e3.chunk.js.map": "/CinemaHall/static/js/851.c88375e3.chunk.js.map",
     "247.980d9a67.chunk.js.map": "/CinemaHall/static/js/247.980d9a67.chunk.js.map",
     "779.f021f62a.chunk.js.map": "/CinemaHall/static/js/779.f021f62a.chunk.js.map",
-    "755.524ec02e.chunk.js.map": "/CinemaHall/static/js/755.524ec02e.chunk.js.map",
+    "755.8fe28229.chunk.js.map": "/CinemaHall/static/js/755.8fe28229.chunk.js.map",
     "656.d434b755.chunk.js.map": "/CinemaHall/static/js/656.d434b755.chunk.js.map",
     "44.ec5167ce.chunk.js.map": "/CinemaHall/static/js/44.ec5167ce.chunk.js.map",
     "580.b284baab.chunk.js.map": "/CinemaHall/static/js/580.b284baab.chunk.js.map",
@@ -39,6 +39,6 @@
   },
   "entrypoints": [
     "static/css/main.4d1398e1.css",
-    "static/js/main.7a4fc641.js"
+    "static/js/main.c02aa33b.js"
   ]
 }
