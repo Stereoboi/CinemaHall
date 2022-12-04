@@ -9,16 +9,36 @@ export const AuthWrapper = styled.div`
   box-shadow: 0px 5px 14px 2px rgb(0 0 0 / 55%);
   margin-left:auto;
   margin-right:auto;
+   @media screen and (max-width: 515px) {
+    width:320px;
+    display:flex;
+    justify-content:center;
+    margin-left:auto;
+    margin-right:auto;
+    padding-right: 1px;
+    padding-left: 1px;
+    ${'' /* justify-content:center; */}
+  }
 `
 export const AuthTitleH2 = styled.h2`
   text-align:center;
   padding-top:10px;
   padding-bottom:10px;
+  color: var(--color-dark-grey);
+  @media screen and (max-width: 767px) {
+    font-size:20px;
+    ${'' /* justify-content:center; */}
+  }
 `
 export const AuthTitleH3 = styled.h3`
   text-align:center;
   padding-top:10px;
   padding-bottom:10px;
+  color: var(--color-dark-grey);
+  @media screen and (max-width: 767px) {
+    font-size:18px;
+    ${'' /* justify-content:center; */}
+  }
 `
 export const AuthBtnWrapper = styled.div`
   display:flex;

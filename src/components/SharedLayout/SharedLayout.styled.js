@@ -17,11 +17,15 @@ export const Header = styled.header`
   gap: 12px;
   padding: 8px 0;
   ${'' /* background-color: #3C6687; */}
+  
 `;
 
 export const Wrapper = styled.div`
    margin-right: 70px;
    margin-left: auto;
+   @media screen and (max-width: 767px) {
+    margin-right: 30px;
+  }
 `
 
 export const Navigation = styled.nav`
@@ -29,6 +33,10 @@ export const Navigation = styled.nav`
     display: flex;
     align-items: center;
     margin-left: 70px;
+   
+    @media screen and (max-width: 767px) {
+    margin-left: 10px;
+  }
 `
 
 export const Link = styled(NavLink)`
@@ -56,5 +64,8 @@ export const LinkLog = styled(NavLink)`
   &:focus {
     color: white;
     background-color: var(--color-green);
+  }
+   @media screen and (max-width: 767px) {
+    ${'' /* margin-left: 30px; */}
   }
 `;
